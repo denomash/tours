@@ -1,2 +1,7 @@
 node_modules
 yarn.lock
+<<<<<<< HEAD
+=======
+.DS_Store
+css/.DS_Store
+>>>>>>> master

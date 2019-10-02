@@ -358,8 +358,8 @@ body {
     position: relative;
     backface-visibility: hidden; }
   .story__img {
-    width: 100%;
-    transform: translateY(-6rem) scale(1.2);
+    height: 100%;
+    transform: translateX(-4rem) scale(1.2);
     backface-visibility: hidden;
     transition: all 0.5s; }
   .story__text {
@@ -380,7 +380,7 @@ body {
     opacity: 1;
     transform: translate(-50%, -50%); }
   .story:hover .story__img {
-    transform: translateY(-6rem) scale(1);
+    transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
 .header {

@@ -348,7 +348,6 @@ body {
   .story__shape {
     width: 15rem;
     height: 15rem;
-    background-color: orangered;
     float: left;
     -webkit-shape-outside: circle(50% at 50% 50%);
     shape-outside: circle(50% at 50% 50%);
@@ -356,7 +355,8 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
-    backface-visibility: hidden; }
+    backface-visibility: hidden;
+    overflow: hidden; }
   .story__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.2);
